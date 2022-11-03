@@ -1,0 +1,47 @@
+*{
+    background-color: aliceblue;
+}
+
+#content{
+    height: 1500px;
+    width: 1000px;
+    display: inline;
+}
+
+#content-esquerda{
+    height: 1000px;
+    border: solid 1px;
+    float: left;
+    padding: 25px;
+    width: 500px; 
+    background-color: beige;
+}
+#content-direita{
+    border: solid 1px;
+    float: left;
+    padding: 25px;
+    width: 500px;
+}
+
+#content-direita>p{
+    margin-top: 60px;
+    padding: 10px;
+}
+
+#content-direita>hr{
+    border: 1px solid rgb(24, 0, 0);
+}
+
+img.alta {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+footer{
+    width: 1000px;
+    height: 100px;
+    background-color: antiquewhite;
+}
